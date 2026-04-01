@@ -392,10 +392,10 @@ CMD ["pnpm", "preview"]
 
 ## 👥 作者
 
-**Your Name**
+**Jade Qian**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@aruirage](https://github.com/aruirage)
+- Email: jadekupo@163.com
 
 ---
 
