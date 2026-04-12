@@ -10,7 +10,7 @@
 
 一个专为企业战略部设计的AI知识库检索与研究报告生成系统
 
-[演示视频](#) · [在线Demo](#) · [问题反馈](https://github.com/aruirage/VCV-Rag-Project/issues)
+[在线Demo](vcv-rag-project-git-main-ds-projects-9d55cd33.vercel.app) · [问题反馈](https://github.com/aruirage/VCV-Rag-Project/issues)
 
 </div>
 
