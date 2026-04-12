@@ -1,4 +1,4 @@
-# Buy-side Insight - 企业投资研究AI系统
+# VCV-Rag-Project - 企业投资研究AI系统
 
 <div align="center">
 
@@ -8,9 +8,9 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1-38B2AC?logo=tailwind-css)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-一个专为买方投资机构设计的AI知识库检索与研究报告生成系统
+一个专为企业战略部设计的AI知识库检索与研究报告生成系统
 
-[演示视频](#) · [在线Demo](#) · [问题反馈](https://github.com/yourusername/buy-side-insight/issues)
+[演示视频](#) · [在线Demo](#) · [问题反馈](https://github.com/aruirage/VCV-Rag-Project/issues)
 
 </div>
 
@@ -35,7 +35,7 @@
 
 ## 🎯 项目简介
 
-**Buy-side Insight** 是一个专为买方投资研究团队打造的企业级AI系统，旨在解决投资研究过程中的三大痛点：
+**Buy-side Insight** 是一个专为企业战略投资研究团队打造的企业级AI系统，旨在解决投资研究过程中的三大痛点：
 
 1. **知识分散** - 研究报告、行业数据散落各处，检索效率低
 2. **研究重复** - 相同问题重复查找，缺少知识沉淀
@@ -76,7 +76,7 @@
 
 ### 4. 报告生成
 
-- **模板系统** - 投资备忘录、公司研究报告、行业简报三种模板
+- **模板系统** - 投资备忘录、正式研究报告、数据周报三种模板
 - **一键生成** - 基于研究板素材自动生成完整报告
 - **多格式导出** - 支持导出PPT、Word、PDF三种格式
 - **引用标注** - 自动标注参考文献来源
@@ -130,8 +130,8 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/buy-side-insight.git
-cd buy-side-insight
+git clone https://github.com/aruirage/VCV-Rag-Project.git
+cd VCV-Rag-Project
 
 # 安装依赖
 pnpm install
@@ -162,7 +162,7 @@ npm run build
 ## 📁 项目结构
 
 ```
-buy-side-insight/
+VCV-Rag-Project/
 ├── src/
 │   ├── app/
 │   │   ├── components/          # React组件
@@ -335,33 +335,6 @@ RUN pnpm build
 EXPOSE 5173
 CMD ["pnpm", "preview"]
 ```
-
----
-
-## 🗺️ 路线图
-
-### v0.2.0 (计划中)
-
-- [ ] 完整的Supabase集成
-- [ ] 文档全文搜索
-- [ ] 协作编辑研究板
-- [ ] 导出真实的PPT/Word文件
-
-### v0.3.0 (规划中)
-
-- [ ] RAG向量检索集成
-- [ ] 流式输出
-- [ ] 多轮对话上下文记忆
-- [ ] 自定义报告模板编辑器
-
-### v1.0.0 (未来)
-
-- [ ] 移动端适配
-- [ ] 多语言支持
-- [ ] 数据可视化仪表板
-- [ ] 第三方API集成（Bloomberg、Wind等）
-
----
 
 ## 🤝 贡献指南
 
